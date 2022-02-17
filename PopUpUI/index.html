@@ -1,0 +1,36 @@
+<!DOCTYPE  lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Boite de contenu en Pop Up</title>
+    <link rel="stylesheet" type="text/css" href="style.css"/>
+    <script type="text/javascript" src="code.js"></script>
+</head>
+<body>
+    <ul>
+        <li><a data-popup="A">Page 1</a></li>
+        <li><a data-popup="B">Page 2</a></li>
+    </ul>
+    <div style="display:none">
+
+        <section  id="A" >
+            <h2>One</h2>
+            <button data-popup-close>Fermer</button>
+        </section>
+        
+        <section id="B">
+            <h2>TWO</h2>
+            <!-- <a href="images\moiMoyen.jpg"><img src="images\moiMini.jpg" alt="Photo de montagne" title="Cliquez pour agrandir" /></a> -->
+            <p id="moimini">
+                <img  src="images\moiMoyen.jpg" width="42px" align="baseline" onMouseOver="width='300'" onMouseout="width='42'"/>        
+            </p>
+                <button data-popup-close>Fermer</button>
+        </section>
+
+
+    </div>
+
+    
+</body>
+</html>

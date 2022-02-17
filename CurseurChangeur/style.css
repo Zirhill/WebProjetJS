@@ -1,0 +1,34 @@
+/*a[data-icon]:hover{
+    cursor: none;
+}*/
+
+.cursor{
+    position: fixed;
+    display: none;
+    z-index: 999999;
+    width: 5em;
+    height: 5em;
+}
+
+.cursor[data-icon="1"]{
+    background: orange;
+}
+
+.cursor[data-icon="2"]{
+    background: blue;
+}
+
+.cursor[data-icon="3"]{
+    background: red;
+}
+
+.cursor[data-icon="4"]{
+    /*background: "<img  src="images\moiMini.jpg" width="200px" data-icon="image" />";*/
+    background: "images\moiMini.jpg";
+    /*background: url(https://cdn.shopify.com/s/files/1/2358/2817/products/air-jordan-5-retro-alternate-bel-air-271003_2000x.png?v=1638813217);*/
+    /*background-image: url("../../media/examples/lizard.png");*/
+}
+
+.cursor[data-icon="image"]{
+    background: yellow;
+}
